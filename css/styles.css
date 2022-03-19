@@ -809,7 +809,7 @@ Skills
     left: 0;
     background: var(--clr-primary-5);
     height: 100%;
-    width: 50%;
+    width: 90%;
     border-radius: var(--radius);
 }
 
@@ -818,7 +818,15 @@ Skills
 }
 
 .value-80 {
-    width: 80%;
+    width: 50%;
+}
+
+.value-10 {
+    width: 10%;
+}
+
+.value-60 {
+    width: 60%;
 }
 
 .skill-text {
