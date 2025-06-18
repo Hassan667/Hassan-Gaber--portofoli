@@ -665,45 +665,29 @@
     </script>
 
 
-<call-us 
-phonesystem-url="https://dp-poc.3cx.co.za:5001" 
-style="position:fixed;font-size:16px;line-height:17px;z-index: 99999;--call-us-main-accent-color:#3397D4;--call-us-main-background-color:#FFFFFF;--call-us-plate-background-color:#373737;--call-us-plate-font-color:#E6E6E6;--call-us-main-font-color:#000000;--call-us-agent-bubble-color:#00000010;right: 20px; bottom: 20px;" 
-id="wp-live-chat-by-3CX" 
-minimized="true" 
-animation-style="slideup" 
-party="LiveChat167212" 
-minimized-style="bubbleright" 
-allow-call="true" 
-allow-video="false" 
-allow-soundnotifications="true" 
-enable-mute="true" 
-enable-onmobile="true" 
-offline-enabled="true" 
-enable="true" 
-ignore-queueownership="true" 
-authentication="both" 
-show-operator-actual-name="true" 
-aknowledge-received="true" 
-gdpr-enabled="false" 
-message-userinfo-format="both" 
-message-dateformat="both" 
-start-chat-button-text="customer" 
-lang="en" 
-button-icon-type="default" 
-invite-message="Hello, how can we help you?" 
-authentication-message="Hello" 
-unavailable-message="We are away, leave your message." 
-ending-message="Your session is over." 
-greeting-visibility="both" 
-greeting-offline-visibility="both" 
-greeting-message="Hi, we are here." 
-greeting-offline-message="We are away." 
-chat-delay="2000" 
-enable-direct-call="true" 
-enable-ga="false">
-</call-us>
+  <!-- 3CX Live Chat Code -->
+  <call-us 
+    phonesystem-url="https://dp-poc.3cx.co.za:5001" 
+    style="position:fixed; font-size:16px; line-height:17px; z-index:99999; right:20px; bottom:20px;"
+    id="wp-live-chat-by-3CX" 
+    minimized="true"
+    animation-style="slideup"
+    party="LiveChat167212"
+    minimized-style="bubbleright"
+    allow-call="true"
+    allow-video="false"
+    allow-soundnotifications="true"
+    enable-mute="true"
+    enable-onmobile="true"
+    offline-enabled="true"
+    enable="true"
+    authentication="both"
+    greeting-message="Hi, we are here to help you."
+    unavailable-message="We are currently away, please leave a message.">
+  </call-us>
 
-<script defer src="https://downloads-global.3cx.com/downloads/livechatandtalk/v1/callus.js" id="tcx-callus-js" charset="utf-8"></script>
+  <script defer src="https://downloads-global.3cx.com/downloads/livechatandtalk/v1/callus.js" 
+          id="tcx-callus-js" charset="utf-8"></script>
   
 </body>
 
